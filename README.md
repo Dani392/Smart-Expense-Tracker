@@ -37,10 +37,10 @@ La aplicación aprovecha la IA en el dispositivo para eliminar la fricción de l
 > **Nota:** El reconocimiento de voz a texto y el escaneo OCR de recibos se consideran funciones experimentales. La precisión puede variar según factores ambientales, la calidad de la cámara y la claridad de la voz. Actualmente se está trabajando en la optimización continua de los algoritmos de análisis.
 
 **Demostración Escaneo de Ticket**  
-![Receipt Scanning Demo](Smart-Expense-Tracker/assets/videos/video_demo_ocr_scan_0.gif)
+![Receipt Scanning Demo](assets/videos/video_demo_ocr_scan_0.gif)
 
 **Demostración Entrada por Voz**  
-![Voice Input Demo](Smart-Expense-Tracker/assets/videos/video_demo_voice_input_0.gif)
+![Voice Input Demo](assets/videos/video_demo_voice_input_0.gif)
 
 ---
 
@@ -50,10 +50,10 @@ Un panel dedicado construido completamente con renderizado personalizado (`Custo
 * **Detalles en Profundidad:** Una pulsación larga en una columna revela un gráfico de líneas de desplazamiento horizontal con desgloses diarios y escalado dinámico del eje Y.
 
 **Navegación Rápida y Filtros**  
-![Analytics Navigation Demo](Smart-Expense-Tracker/assets/videos/video_demo_analytics_nav.gif)
+![Analytics Navigation Demo](assets/videos/video_demo_analytics_nav.gif)
 
 **Interacción: Pulsación Larga y Detalle Diario**  
-![Analytics Interaction Demo](Smart-Expense-Tracker/assets/videos/video_demo_analytics_interaction.gif)
+![Analytics Interaction Demo](assets/videos/video_demo_analytics_interaction.gif)
 
 ---
 
