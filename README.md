@@ -70,10 +70,6 @@ Construida para ser robusta, altamente personalizable y segura ante errores del 
 ![Delete Flow Demo](assets/demo_delete_flow_0.gif)
 
 #### Detalles Adicionales de la Interfaz
-| Confirmación de Borrado | Diálogo de Registro | Exportación y Cuentas |
-| :---: | :---: | :---: |
-| ![Confirm](assets/demo_delete_flow_2.jpg) | ![Settings](assets/demo_settings_management_1.jpg) | ![Trash](assets/demo_voice_input_1.jpg) |
-#### Detalles Adicionales de la Interfaz
 | Confirmación de Borrado | Ajustes de Usuario | Gestión de Papelera |
 | :---: | :---: | :---: |
-| ![Confirm](Smart-Expense-Tracker/assets/images/demo_delete_flow_2.gif) | ![Settings](Smart-Expense-Tracker/assets/images/demo_settings_management_0.gif) | ![Trash](Smart-Expense-Tracker/assets/images/tu_imagen_papelera.gif) |
+| <img src="assets/images/demo_delete_flow_2.jpeg" width="300"> | <img src="assets/images/demo_settings_management_1.jpeg" width="300"> | <img src="assets/images/demo_trash_0.jpeg" width="300"> |
