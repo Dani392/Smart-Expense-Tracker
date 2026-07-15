@@ -59,17 +59,13 @@ Un panel dedicado construido completamente con renderizado personalizado (`Custo
 
 ### 3. Gestión Integral, Ajustes y Seguridad
 Construida para ser robusta, altamente personalizable y segura ante errores del usuario.
-* **Control Total:** Gestión de conceptos, categorías y asignación de reglas automáticas (Comercio → Concepto).
+* **Control Total:** Gestión de conceptos, nomenclaturas decategorías y asignación de reglas automáticas (Comercio → Concepto).
 * **Protección y Exportación:** Bloqueo mediante contraseña cifrada y exportación nativa a formato CSV.
 * **UI Preventiva:** Funcionalidad de deslizar para borrar (*swipe-to-delete*) integrada con diálogos de advertencia y un sistema de papelera recuperable de 7 días.
 
-**Gestión de Ajustes y Límites**
-![Settings Management Demo](assets/demo_settings_management_0.gif)
-
-**Flujo de Borrado y Papelera**
-![Delete Flow Demo](assets/demo_delete_flow_0.gif)
 
 #### Detalles Adicionales de la Interfaz
-| Confirmación de Borrado | Ajustes de Usuario | Gestión de Papelera |
-| :---: | :---: | :---: |
-| <img src="assets/images/demo_delete_flow_2.jpeg" width="300"> | <img src="assets/images/demo_settings_management_1.jpeg" width="300"> | <img src="assets/images/demo_trash_0.jpeg" width="300"> |
+
+| Deslizar para Borrar | Confirmación de Borrado | Feedback Visual y Deshacer | Ajustes de Usuario | Gestión de Papelera |
+| :---: | :---: | :---: | :---: | :---: |
+| <img src="assets/images/demo_delete_flow_1.jpeg" width="300"> | <img src="assets/images/demo_delete_flow_2.jpeg" width="280"> | <img src="assets/images/demo_info_buner_opcion_deshacer.jpeg" width="300">  | <img src="assets/images/demo_settings_management_0.jpeg" width="300"> | <img src="assets/images/demo_trash_0.jpeg" width="300"> |
