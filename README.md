@@ -36,9 +36,12 @@ The application leverages on-device AI to eliminate the friction of manual data 
 
 > **Note:** Speech-to-text recognition and OCR receipt scanning are considered experimental features. Accuracy may vary based on environmental factors, camera quality, and voice clarity. Continuous optimization of the parsing algorithms is currently underway.
 
-**OCR Scan Demo** <img src="assets/videos/video_demo_ocr_scan_0.gif" width="300">
+**OCR Scan Demo**  
+<img src="assets/videos/video_demo_ocr_scan_0.gif" width="300">
 
-**Voice Input Demo** <img src="assets/videos/video_demo_voice_input_0.gif" width="300">
+**Voice Input Demo**  
+
+<img src="assets/videos/video_demo_voice_input_0.gif" width="300">
 
 ---
 
@@ -47,9 +50,13 @@ A dedicated dashboard built entirely with custom rendering (`CustomPainter`) for
 * **Interactive Filtering:** Instantly toggle between Monthly and Weekly comparative views.
 * **In-Depth Details:** A long press on a column reveals a horizontally scrolling line chart with daily breakdowns and dynamic Y-axis scaling.
 
-**Quick Navigation & Filters** <img src="assets/videos/video_demo_analytics_nav.gif" width="300">
+**Quick Navigation & Filters**  
+  
+<img src="assets/videos/video_demo_analytics_nav.gif" width="300">
 
-**Interaction: Long Press & Daily Detail** <img src="assets/videos/video_demo_analytics_interaction.gif" width="300">
+**Interaction: Long Press & Daily Detail**  
+  
+<img src="assets/videos/video_demo_analytics_interaction.gif" width="300">
 
 ---
 
