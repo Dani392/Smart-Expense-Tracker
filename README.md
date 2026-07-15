@@ -63,9 +63,8 @@ Construida para ser robusta, altamente personalizable y segura ante errores del 
 * **Protección y Exportación:** Bloqueo mediante contraseña cifrada y exportación nativa a formato CSV.
 * **UI Preventiva:** Funcionalidad de deslizar para borrar (*swipe-to-delete*) integrada con diálogos de advertencia y un sistema de papelera recuperable de 7 días.
 
-
 #### Detalles Adicionales de la Interfaz
 
 | Deslizar para Borrar | Confirmación de Borrado | Feedback Visual y Deshacer | Ajustes de Usuario | Gestión de Papelera |
 | :---: | :---: | :---: | :---: | :---: |
-| <img src="assets/images/demo_delete_flow_1.jpeg" width="300"> | <img src="assets/images/demo_delete_flow_2.jpeg" width="280"> | <img src="assets/images/demo_info_buner_opcion_deshacer.jpeg" width="300">  | <img src="assets/images/demo_settings_management_0.jpeg" width="300"> | <img src="assets/images/demo_trash_0.jpeg" width="300"> |
+| <img src="assets/images/demo_delete_flow_1.jpeg" height="400"> | <img src="assets/images/demo_delete_flow_2.jpeg" height="400"> | <img src="assets/images/demo_info_buner_opcion_deshacer.jpeg" height="400"> | <img src="assets/images/demo_settings_management_0.jpeg" height="400"> | <img src="assets/images/demo_trash_0.jpeg" height="400"> |
