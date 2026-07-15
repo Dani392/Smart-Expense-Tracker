@@ -65,6 +65,19 @@ Construida para ser robusta, altamente personalizable y segura ante errores del 
 
 #### Detalles Adicionales de la Interfaz
 
-| Deslizar para<br>Borrar | Confirmación<br>de Borrado | Feedback Visual<br>y Deshacer | Ajustes de<br>Usuario | Gestión de<br>Papelera |
-| :---: | :---: | :---: | :---: | :---: |
-| <img src="assets/images/demo_delete_flow_1.jpeg" height="400"> | <img src="assets/images/demo_delete_flow_2.jpeg" height="400"> | <img src="assets/images/demo_info_buner_opcion_deshacer.jpeg" height="400"> | <img src="assets/images/demo_settings_management_0.jpeg" height="400"> | <img src="assets/images/demo_trash_0.jpeg" height="400"> |
+<table width="100%">
+  <tr>
+    <td width="20%" align="center"><b>Deslizar para<br>Borrar</b></td>
+    <td width="20%" align="center"><b>Confirmación<br>de Borrado</b></td>
+    <td width="20%" align="center"><b>Feedback<br>y Deshacer</b></td>
+    <td width="20%" align="center"><b>Ajustes de<br>Usuario</b></td>
+    <td width="20%" align="center"><b>Gestión de<br>Papelera</b></td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="assets/images/demo_delete_flow_1.jpeg" width="100%"></td>
+    <td valign="top"><img src="assets/images/demo_delete_flow_2.jpeg" width="100%"></td>
+    <td valign="top"><img src="assets/images/demo_info_buner_opcion_deshacer.jpeg" width="100%"></td>
+    <td valign="top"><img src="assets/images/demo_settings_management_0.jpeg" width="100%"></td>
+    <td valign="top"><img src="assets/images/demo_trash_0.jpeg" width="100%"></td>
+  </tr>
+</table>
