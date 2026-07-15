@@ -1,88 +1,84 @@
 # Smart-Expense-Tracker
 
-Un control de gastos en Flutter rico en funciones, que incluye entrada de voz inteligente, procesamiento OCR, analíticas interactivas y gestión de estado reactiva.
+A feature-rich Flutter expense tracker featuring smart voice input, OCR processing, interactive analytics, and reactive state management.
 
-## 🚀 Resumen
+## 🚀 Overview
 
-Construida teniendo en mente la escalabilidad y la experiencia del usuario, esta aplicación va mucho más allá de las operaciones básicas CRUD. Actúa como un panel integral de finanzas personales, ofreciendo métodos inteligentes de entrada de datos y análisis profundos para ayudar a los usuarios a mantener un control total sobre su economía.
+Built with scalability and user experience in mind, this application goes far beyond basic CRUD operations. It acts as a comprehensive personal finance dashboard, offering smart data entry methods and in-depth analytics to help users maintain total control over their economy.
 
-## ✨ Características Principales
+## ✨ Key Features
 
-* **🤖 Entrada de Datos Inteligente:** Reconocimiento de voz a texto con reglas de procesamiento personalizables y escaneo de tickets mediante OCR.
-* **📊 Panel de Analíticas Avanzado:** Gráficos de barras comparativos interactivos (mensuales y semanales). La función de pulsación larga revela desgloses dinámicos diarios mediante gráficos de líneas.
-* **🔍 Filtrado Profundo:** Búsqueda global entre conceptos y notas, combinada con etiquetas de categoría personalizadas y filtros por rango de fechas.
-* **⚙️ Alta Personalización:** Gestión de conceptos personalizados, establecimiento de límites de gasto mensual y definición de alertas globales de presupuesto.
-* **🛡️ Seguridad y Fiabilidad:** Protección con contraseña integrada, opciones de exportación de datos y una papelera de reciclaje con recuperación de 7 días para una gestión segura.
+* **🤖 Smart Data Entry:** Speech-to-text recognition with customizable processing rules and OCR receipt scanning.
+* **📊 Advanced Analytics Dashboard:** Interactive comparative bar charts (monthly and weekly). A long-press interaction reveals dynamic daily breakdowns through line charts.
+* **🔍 Deep Filtering:** Global search across concepts and notes, combined with custom category tags and date range filters.
+* **⚙️ High Customization:** Custom concept management, monthly spending limit settings, and global budget alerts definition.
+* **🛡️ Security & Reliability:** Integrated password protection, data export options, and a recycle bin with 7-day recovery for safe management.
 
-## 🛠️ Stack Tecnológico y Flujo de Desarrollo
+## 🛠️ Tech Stack & Development Flow
 
 * **Framework:** Flutter (Dart)
-* **Almacenamiento Local:** [Hive](https://pub.dev/packages/hive) (Base de datos NoSQL ligera).
-* **Gestión de Estado:** `ValueListenableBuilder` nativo y reactivo a las mutaciones de la base de datos Hive.
-* **Integración de IA y Hardware:**
-  * `google_mlkit_text_recognition`: Machine Learning en el dispositivo para OCR.
-  * `speech_to_text`: Acceso al hardware del micrófono.
-  * Algoritmos Regex complejos para el procesamiento de lenguaje natural (entidades, fechas, importes).
-* **UI y Gráficos Personalizados:** Gráficos analíticos implementados de forma nativa usando `CustomPainter` e `InteractiveViewer` para el desplazamiento horizontal.
-* **Seguridad y Exportación de Datos:** `crypto` (hash local SHA-256), `file_saver` y `share_plus` para la generación de CSV.
-* **🤖 Enfoque de Desarrollo:** Diseñada y programada en VS Code utilizando **GitHub Copilot** como asistente de IA para acelerar la implementación de lógica compleja (como las matemáticas del Canvas y los patrones Regex) y aumentar la productividad general.
+* **Local Storage:** [Hive](https://pub.dev/packages/hive) (Lightweight NoSQL database).
+* **State Management:** Native `ValueListenableBuilder` reactive to Hive database mutations.
+* **AI & Hardware Integration:**
+  * `google_mlkit_text_recognition`: On-device Machine Learning for OCR.
+  * `speech_to_text`: Microphone hardware access.
+  * Complex Regex algorithms for natural language processing (entities, dates, amounts).
+* **Custom UI & Graphics:** Native analytic charts implemented using `CustomPainter` and `InteractiveViewer` for horizontal scrolling.
+* **Security & Data Export:** `crypto` (local SHA-256 hashing), `file_saver`, and `share_plus` for CSV generation.
+* **🤖 Development Approach:** Designed and programmed in VS Code utilizing **GitHub Copilot** as an AI assistant to accelerate the implementation of complex logic (such as Canvas mathematics and Regex patterns) and boost overall productivity.
 
-## 📱 Escaparate de la App e Interacciones Clave
+## 📱 App Showcase & Key Interactions
 
-### 1. Entrada de Datos Inteligente (OCR y Voz)
-La aplicación aprovecha la IA en el dispositivo para eliminar la fricción de la entrada manual de datos.
-* **Escáner de Tickets OCR:** Extrae automáticamente totales y fechas de recibos físicos usando Google ML Kit.
-* **Procesamiento de Lenguaje Natural:** Los usuarios pueden introducir gastos mediante voz. La app analiza cantidades, fechas y contexto para asignar categorías y conceptos automáticamente.
+### 1. Smart Data Entry (OCR & Voice)
+The application leverages on-device AI to eliminate the friction of manual data entry.
+* **OCR Receipt Scanner:** Automatically extracts totals and dates from physical receipts using Google ML Kit.
+* **Natural Language Processing:** Users can input expenses via voice. The app parses amounts, dates, and context to automatically assign categories and concepts.
 
-> **Nota:** El reconocimiento de voz a texto y el escaneo OCR de recibos se consideran funciones experimentales. La precisión puede variar según factores ambientales, la calidad de la cámara y la claridad de la voz. Actualmente se está trabajando en la optimización continua de los algoritmos de análisis.
+> **Note:** Speech-to-text recognition and OCR receipt scanning are considered experimental features. Accuracy may vary based on environmental factors, camera quality, and voice clarity. Continuous optimization of the parsing algorithms is currently underway.
 
-**Demostración Escaneo de Ticket**  
-<img src="assets/videos/video_demo_ocr_scan_0.gif" width="300">
+**OCR Scan Demo** <img src="assets/videos/video_demo_ocr_scan_0.gif" width="300">
 
-**Demostración Entrada por Voz**  
-<img src="assets/videos/video_demo_voice_input_0.gif" width="300">
+**Voice Input Demo** <img src="assets/videos/video_demo_voice_input_0.gif" width="300">
 
 ---
 
-### 2. Análisis Avanzado y Gráficos Personalizados
-Un panel dedicado construido completamente con renderizado personalizado (`CustomPainter`) para un seguimiento financiero de alto rendimiento.
-* **Filtrado Interactivo:** Alterna entre vistas comparativas Mensuales y Semanales al instante.
-* **Detalles en Profundidad:** Una pulsación larga en una columna revela un gráfico de líneas de desplazamiento horizontal con desgloses diarios y escalado dinámico del eje Y.
+### 2. Advanced Analytics & Custom Charts
+A dedicated dashboard built entirely with custom rendering (`CustomPainter`) for high-performance financial tracking.
+* **Interactive Filtering:** Instantly toggle between Monthly and Weekly comparative views.
+* **In-Depth Details:** A long press on a column reveals a horizontally scrolling line chart with daily breakdowns and dynamic Y-axis scaling.
 
-**Navegación Rápida y Filtros**  
-<img src="assets/videos/video_demo_analytics_nav.gif" width="300">
+**Quick Navigation & Filters** <img src="assets/videos/video_demo_analytics_nav.gif" width="300">
 
-**Interacción: Pulsación Larga y Detalle Diario**  
-<img src="assets/videos/video_demo_analytics_interaction.gif" width="300">
+**Interaction: Long Press & Daily Detail** <img src="assets/videos/video_demo_analytics_interaction.gif" width="300">
 
 ---
 
-### 3. Gestión Integral, Ajustes y Seguridad
-Construida para ser robusta, altamente personalizable y segura ante errores del usuario.
-* **Control Total:** Gestión de conceptos, nomenclaturas decategorías y asignación de reglas automáticas (Comercio → Concepto).
-* **Protección y Exportación:** Bloqueo mediante contraseña cifrada y exportación nativa a formato CSV.
-* **UI Preventiva:** Funcionalidad de deslizar para borrar (*swipe-to-delete*) integrada con diálogos de advertencia y un sistema de papelera recuperable de 7 días.
+### 3. Comprehensive Management, Settings & Security
+Built to be robust, highly customizable, and safe against user errors.
+* **Total Control:** Management of concepts, category nomenclature, and automatic rule assignment (Merchant → Concept).
+* **Protection & Export:** Encrypted password lock and native CSV format export.
+* **Preventive UI:** Swipe-to-delete functionality integrated with warning dialogs and a 7-day recoverable recycle bin system.
 
 <table width="100%" cellspacing="0" cellpadding="0">
   <tr>
     <td width="20%" align="center" valign="top">
-      <b>Deslizar</b>
+      <b>Swipe</b>
       <img src="assets/images/demo_delete_flow_1.jpeg" width="100%">
     </td>
     <td width="20%" align="center" valign="top">
-      <b>Confirmar</b>
+      <b>Confirm</b>
       <img src="assets/images/demo_delete_flow_2.jpeg" width="100%">
     </td>
     <td width="20%" align="center" valign="top">
-      <b>Deshacer</b>
+      <b>Undo</b>
       <img src="assets/images/demo_info_buner_opcion_deshacer.jpeg" width="100%">
     </td>
     <td width="20%" align="center" valign="top">
-      <b>Ajustes</b>
+      <b>Settings</b>
       <img src="assets/images/demo_settings_management_0.jpeg" width="100%">
     </td>
     <td width="20%" align="center" valign="top">
-      <b>Papelera</b>
+      <b>Trash</b>
       <img src="assets/images/demo_trash_0.jpeg" width="100%">
     </td>
   </tr>
