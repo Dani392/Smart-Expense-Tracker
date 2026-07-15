@@ -62,28 +62,9 @@ Construida para ser robusta, altamente personalizable y segura ante errores del 
 * **Control Total:** Gestión de conceptos, nomenclaturas decategorías y asignación de reglas automáticas (Comercio → Concepto).
 * **Protección y Exportación:** Bloqueo mediante contraseña cifrada y exportación nativa a formato CSV.
 * **UI Preventiva:** Funcionalidad de deslizar para borrar (*swipe-to-delete*) integrada con diálogos de advertencia y un sistema de papelera recuperable de 7 días.
+#### Detalles Adicionales de la Interfaz
 
-<table width="100%" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="20%" align="center" valign="top">
-      <b>Deslizar</b>
-      <img src="assets/images/demo_delete_flow_1.jpeg" width="100%">
-    </td>
-    <td width="20%" align="center" valign="top">
-      <b>Confirmar</b>
-      <img src="assets/images/demo_delete_flow_2.jpeg" width="100%">
-    </td>
-    <td width="20%" align="center" valign="top">
-      <b>Deshacer</b>
-      <img src="assets/images/demo_info_buner_opcion_deshacer.jpeg" width="100%">
-    </td>
-    <td width="20%" align="center" valign="top">
-      <b>Ajustes</b>
-      <img src="assets/images/demo_settings_management_0.jpeg" width="100%">
-    </td>
-    <td width="20%" align="center" valign="top">
-      <b>Papelera</b>
-      <img src="assets/images/demo_trash_0.jpeg" width="100%">
-    </td>
-  </tr>
-</table>
+| | | | | |
+| :---: | :---: | :---: | :---: | :---: |
+| **Deslizar** | **Confirmar** | **Deshacer** | **Ajustes** | **Papelera** |
+| <img src="assets/images/demo_delete_flow_1.jpeg" width="220"> | <img src="assets/images/demo_delete_flow_2.jpeg" width="220"> | <img src="assets/images/demo_info_buner_opcion_deshacer.jpeg" width="220"> | <img src="assets/images/demo_settings_management_0.jpeg" width="220"> | <img src="assets/images/demo_trash_0.jpeg" width="220"> |
