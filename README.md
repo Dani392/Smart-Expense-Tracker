@@ -67,11 +67,11 @@ Construida para ser robusta, altamente personalizable y segura ante errores del 
 
 <table width="100%">
   <tr>
-    <td width="20%" align="center"><b>Deslizar</b></td>
+    <td width="20%" align="center"><b>Deslizar </b></td>
     <td width="20%" align="center"><b>Confirmar</b></td>
-    <td width="20%" align="center"><b>Deshacer</b></td>
-    <td width="20%" align="center"><b>Ajustes</b></td>
-    <td width="20%" align="center"><b>Papelera</b></td>
+    <td width="20%" align="center"><b>Deshacer </b></td>
+    <td width="20%" align="center"><b>Ajustes  </b></td>
+    <td width="20%" align="center"><b>Papelera </b></td>
   </tr>
   <tr>
     <td valign="top"><img src="assets/images/demo_delete_flow_1.jpeg" width="100%"></td>
