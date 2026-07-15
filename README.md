@@ -65,30 +65,19 @@ Construida para ser robusta, altamente personalizable y segura ante errores del 
 
 #### Detalles Adicionales de la Interfaz
 
-##### 🗑️ Flujo de Borrado y Recuperación
 <table width="100%">
   <tr>
-    <td width="33.3%" align="center"><b>Deslizar para<br>Borrar</b></td>
-    <td width="33.3%" align="center"><b>Confirmación<br>de Borrado</b></td>
-    <td width="33.3%" align="center"><b>Feedback<br>y Deshacer</b></td>
+    <td width="20%" align="center"><b>Deslizar</b></td>
+    <td width="20%" align="center"><b>Confirmar</b></td>
+    <td width="20%" align="center"><b>Deshacer</b></td>
+    <td width="20%" align="center"><b>Ajustes</b></td>
+    <td width="20%" align="center"><b>Papelera</b></td>
   </tr>
   <tr>
-    <td valign="top" align="center"><img src="assets/images/demo_delete_flow_1.jpeg" height="320"></td>
-    <td valign="top" align="center"><img src="assets/images/demo_delete_flow_2.jpeg" height="320"></td>
-    <td valign="top" align="center"><img src="assets/images/demo_info_buner_opcion_deshacer.jpeg" height="320"></td>
-  </tr>
-</table>
-
-<br>
-
-##### ⚙️ Ajustes y Papelera de Reciclaje
-<table width="100%">
-  <tr>
-    <td width="50%" align="center"><b>Ajustes de<br>Usuario</b></td>
-    <td width="50%" align="center"><b>Gestión de<br>Papelera</b></td>
-  </tr>
-  <tr>
-    <td valign="top" align="center"><img src="assets/images/demo_settings_management_0.jpeg" height="320"></td>
-    <td valign="top" align="center"><img src="assets/images/demo_trash_0.jpeg" height="320"></td>
+    <td valign="top"><img src="assets/images/demo_delete_flow_1.jpeg" width="100%"></td>
+    <td valign="top"><img src="assets/images/demo_delete_flow_2.jpeg" width="100%"></td>
+    <td valign="top"><img src="assets/images/demo_info_buner_opcion_deshacer.jpeg" width="100%"></td>
+    <td valign="top"><img src="assets/images/demo_settings_management_0.jpeg" width="100%"></td>
+    <td valign="top"><img src="assets/images/demo_trash_0.jpeg" width="100%"></td>
   </tr>
 </table>
