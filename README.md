@@ -63,21 +63,27 @@ Construida para ser robusta, altamente personalizable y segura ante errores del 
 * **Protección y Exportación:** Bloqueo mediante contraseña cifrada y exportación nativa a formato CSV.
 * **UI Preventiva:** Funcionalidad de deslizar para borrar (*swipe-to-delete*) integrada con diálogos de advertencia y un sistema de papelera recuperable de 7 días.
 
-#### Detalles Adicionales de la Interfaz
-
-<table width="100%">
+<table width="100%" cellspacing="0" cellpadding="0">
   <tr>
-    <td width="20%" align="center"><b>Deslizar </b></td>
-    <td width="20%" align="center"><b>Confirmar</b></td>
-    <td width="20%" align="center"><b>Deshacer </b></td>
-    <td width="20%" align="center"><b>Ajustes  </b></td>
-    <td width="20%" align="center"><b>Papelera </b></td>
-  </tr>
-  <tr>
-    <td valign="top"><img src="assets/images/demo_delete_flow_1.jpeg" width="100%"></td>
-    <td valign="top"><img src="assets/images/demo_delete_flow_2.jpeg" width="100%"></td>
-    <td valign="top"><img src="assets/images/demo_info_buner_opcion_deshacer.jpeg" width="100%"></td>
-    <td valign="top"><img src="assets/images/demo_settings_management_0.jpeg" width="100%"></td>
-    <td valign="top"><img src="assets/images/demo_trash_0.jpeg" width="100%"></td>
+    <td width="20%" align="center" valign="top">
+      <b>Deslizar</b>
+      <img src="assets/images/demo_delete_flow_1.jpeg" width="100%">
+    </td>
+    <td width="20%" align="center" valign="top">
+      <b>Confirmar</b>
+      <img src="assets/images/demo_delete_flow_2.jpeg" width="100%">
+    </td>
+    <td width="20%" align="center" valign="top">
+      <b>Deshacer</b>
+      <img src="assets/images/demo_info_buner_opcion_deshacer.jpeg" width="100%">
+    </td>
+    <td width="20%" align="center" valign="top">
+      <b>Ajustes</b>
+      <img src="assets/images/demo_settings_management_0.jpeg" width="100%">
+    </td>
+    <td width="20%" align="center" valign="top">
+      <b>Papelera</b>
+      <img src="assets/images/demo_trash_0.jpeg" width="100%">
+    </td>
   </tr>
 </table>
