@@ -65,6 +65,6 @@ Construida para ser robusta, altamente personalizable y segura ante errores del 
 
 #### Detalles Adicionales de la Interfaz
 
-| Deslizar para Borrar | Confirmación de Borrado | Feedback Visual y Deshacer | Ajustes de Usuario | Gestión de Papelera |
+| Deslizar para<br>Borrar | Confirmación<br>de Borrado | Feedback Visual<br>y Deshacer | Ajustes de<br>Usuario | Gestión de<br>Papelera |
 | :---: | :---: | :---: | :---: | :---: |
 | <img src="assets/images/demo_delete_flow_1.jpeg" height="400"> | <img src="assets/images/demo_delete_flow_2.jpeg" height="400"> | <img src="assets/images/demo_info_buner_opcion_deshacer.jpeg" height="400"> | <img src="assets/images/demo_settings_management_0.jpeg" height="400"> | <img src="assets/images/demo_trash_0.jpeg" height="400"> |
